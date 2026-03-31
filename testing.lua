@@ -325,7 +325,7 @@ L_NEW_STROKE["Parent"] = L_NEW_FRAME
 L_NEW_TEXT = Instance["new"]("TextLabel")
 L_NEW_TEXT["Size"] = UDim2["new"](1, 0, 1, 0)
 L_NEW_TEXT["BackgroundTransparency"] = 1
-L_NEW_TEXT["Text"] = "Night Slayer Hub"
+L_NEW_TEXT["Text"] = "CattStar Hub"
 L_NEW_TEXT["TextColor3"] = Color3["fromRGB"](255, 0, 0)
 L_NEW_TEXT["TextSize"] = 14
 L_NEW_TEXT["Font"] = Enum["Font"]["GothamBold"]
@@ -2065,11 +2065,11 @@ function TPZ(L_30_arg0)
 	L_31_[2] = L_30_arg0
 	L_31_[1] = (L_31_[2]["Position"] - game["Players"]["LocalPlayer"]["Character"]["HumanoidRootPart"]["Position"])["Magnitude"]
 	if L_31_[1] < 100 then
-		L_31_[4] = 50
+		L_31_[4] = 35
 	elseif L_31_[1] < 400 then
-		L_31_[4] = 400
+		L_31_[4] = 100
 	elseif L_31_[1] < 1000 then
-		L_31_[4] = 300
+		L_31_[4] = 150
 	elseif L_31_[1] < 1500 then
 		L_31_[4] = 260
 	elseif L_31_[1] >= 1500 then
