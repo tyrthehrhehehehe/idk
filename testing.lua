@@ -1,5 +1,4 @@
--- @discord_betaa
-
+--DEOBFUSCATED BY _NYZLINH
 local L_1_ = {}
 L_1_[3] = table["concat"]
 if not game:IsLoaded() then
@@ -264,91 +263,80 @@ L_1_[11] = Instance["new"]("ScreenGui")
 L_1_[11]["Name"] = "Status_UI"
 L_1_[11]["ResetOnSpawn"] = false
 L_1_[11]["Parent"] = L_1_[43]
-
 L_1_[42] = Instance["new"]("Frame")
-L_1_[42]["Size"] = UDim2["new"](0, 150, 0, 50)
-L_1_[42]["Position"] = UDim2["new"](1, -10, .5, 0)
-L_1_[42]["AnchorPoint"] = Vector2["new"](1, .5)
+L_1_[42]["Size"] = UDim2["new"](0, 420, 0, 70)
+L_1_[42]["Position"] = UDim2["new"](.5, 0, .07, 0)
+L_1_[42]["AnchorPoint"] = Vector2["new"](.5, 0)
 L_1_[42]["BackgroundColor3"] = Color3["fromRGB"](0, 0, 0)
-L_1_[42]["BackgroundTransparency"] = .25
-L_1_[42]["BorderSizePixel"] = 2
-L_1_[42]["BorderColor3"] = Color3["fromRGB"](255, 0, 0)
+L_1_[42][L_1_[3]({
+	"BackgroundTransparen";
+	"cy"
+})] = .25
+L_1_[42]["BorderSizePixel"] = 3
+L_1_[42]["BorderColor3"] = Color3["fromRGB"](255, 220, 70)
 L_1_[42]["Parent"] = L_1_[11]
 L_1_[41] = Instance["new"]("UICorner")
 L_1_[41]["CornerRadius"] = UDim["new"](0, 6)
 L_1_[41]["Parent"] = L_1_[42]
 L_1_[12] = Instance["new"]("UIStroke")
 L_1_[12]["Thickness"] = 2
-L_1_[12]["Color"] = Color3["fromRGB"](255, 0, 0)
+L_1_[12]["Color"] = Color3["fromRGB"](255, 230, 120)
 L_1_[12]["ApplyStrokeMode"] = Enum["ApplyStrokeMode"]["Border"]
 L_1_[12]["Parent"] = L_1_[42]
 L_1_[15] = Instance["new"]("TextLabel")
 L_1_[15]["Size"] = UDim2["new"](1, -10, .5, 0)
-L_1_[15]["Position"] = UDim2["new"](.5, 0, 0, 2)
+L_1_[15]["Position"] = UDim2["new"](.5, 0, 0, 5)
 L_1_[15]["AnchorPoint"] = Vector2["new"](.5, 0)
-L_1_[15]["BackgroundTransparency"] = 1
-L_1_[15]["Text"] = "Cattstar hub - Kaitun"
-L_1_[15]["TextColor3"] = Color3["fromRGB"](255, 0, 0)
-L_1_[15]["TextSize"] = 13
+L_1_[15][L_1_[3]({
+	"BackgroundTransparen",
+	"cy"
+})] = 1
+L_1_[15]["Text"] = "Gravity Hub - Kaitun"
+L_1_[15]["TextColor3"] = Color3["fromRGB"](255, 230, 120)
+L_1_[15]["TextSize"] = 18
 L_1_[15]["Font"] = Enum["Font"]["GothamBold"]
 L_1_[15]["TextXAlignment"] = Enum["TextXAlignment"]["Center"]
 L_1_[15]["TextYAlignment"] = Enum["TextYAlignment"]["Center"]
 L_1_[15]["Parent"] = L_1_[42]
 L_1_[26] = Instance["new"]("TextLabel")
-L_1_[26]["Size"] = UDim2["new"](1, -10, .4, 0)
+L_1_[26]["Size"] = UDim2["new"](1, -10, .5, 0)
 L_1_[26]["Position"] = UDim2["new"](.5, 0, .5, 0)
 L_1_[26]["AnchorPoint"] = Vector2["new"](.5, 0)
-L_1_[26]["BackgroundTransparency"] = 1
-L_1_[26]["Text"] = "Status : N/A"
-L_1_[26]["TextColor3"] = Color3["fromRGB"](255, 0, 0)
-L_1_[26]["TextSize"] = 12
+L_1_[26][L_1_[3]({
+	"BackgroundTransparen";
+	"cy"
+})] = 1
+L_1_[26]["Text"] = "Status : TBoy Roblox"
+L_1_[26]["TextColor3"] = Color3["fromRGB"](255, 230, 120)
+L_1_[26]["TextSize"] = 16
 L_1_[26]["Font"] = Enum["Font"]["Gotham"]
 L_1_[26]["TextXAlignment"] = Enum["TextXAlignment"]["Center"]
 L_1_[26]["TextYAlignment"] = Enum["TextYAlignment"]["Center"]
 L_1_[26]["Parent"] = L_1_[42]
-
-L_NEW_FRAME = Instance["new"]("Frame")
-L_NEW_FRAME["Size"] = UDim2["new"](0, 250, 0, 60)
-L_NEW_FRAME["Position"] = UDim2["new"](.5, 0, .13, 0)
-L_NEW_FRAME["AnchorPoint"] = Vector2["new"](.5, .5)
-L_NEW_FRAME["BackgroundColor3"] = Color3["fromRGB"](0, 0, 0)
-L_NEW_FRAME["BackgroundTransparency"] = .25
-L_NEW_FRAME["Parent"] = L_1_[11]
-L_NEW_CORNER = Instance["new"]("UICorner")
-L_NEW_CORNER["CornerRadius"] = UDim["new"](0, 6)
-L_NEW_CORNER["Parent"] = L_NEW_FRAME
-L_NEW_STROKE = Instance["new"]("UIStroke")
-L_NEW_STROKE["Thickness"] = 2
-L_NEW_STROKE["Color"] = Color3["fromRGB"](255, 0, 0)
-L_NEW_STROKE["ApplyStrokeMode"] = Enum["ApplyStrokeMode"]["Border"]
-L_NEW_STROKE["Parent"] = L_NEW_FRAME
-L_NEW_TEXT = Instance["new"]("TextLabel")
-L_NEW_TEXT["Size"] = UDim2["new"](1, 0, 1, 0)
-L_NEW_TEXT["BackgroundTransparency"] = 1
-L_NEW_TEXT["Text"] = "CattStar Hub"
-L_NEW_TEXT["TextColor3"] = Color3["fromRGB"](255, 0, 0)
-L_NEW_TEXT["TextSize"] = 14
-L_NEW_TEXT["Font"] = Enum["Font"]["GothamBold"]
-L_NEW_TEXT["Parent"] = L_NEW_FRAME
-
 task["spawn"](function()
 	while task["wait"]() do
 		local L_27_ = {}
-		L_27_[4] = L_1_[6]:Create(L_1_[12], TweenInfo["new"](1.2, Enum["EasingStyle"]["Quad"], Enum["EasingDirection"]["Out"]), {["Color"] = Color3["fromRGB"](255, 0, 0)})
-		L_27_[5] = L_1_[6]:Create(L_1_[12], TweenInfo["new"](1.2, Enum["EasingStyle"]["Quad"], Enum["EasingDirection"]["Out"]), {["Color"] = Color3["fromRGB"](255, 0, 0)})
-		L_27_[2] = L_1_[6]:Create(L_1_[15], TweenInfo["new"](1.2), {["TextColor3"] = Color3["fromRGB"](255, 0, 0)})
-		L_27_[3] = L_1_[6]:Create(L_1_[15], TweenInfo["new"](1.2), {["TextColor3"] = Color3["fromRGB"](255, 0, 0)})
-		L_27_[1] = L_1_[6]:Create(L_1_[26], TweenInfo["new"](1.2), {["TextColor3"] = Color3["fromRGB"](255, 0, 0)})
-		L_27_[7] = L_1_[6]:Create(L_1_[26], TweenInfo["new"](1.2), {["TextColor3"] = Color3["fromRGB"](255, 0, 0)})
-		
-		local L_NEW_TWEEN = L_1_[6]:Create(L_NEW_STROKE, TweenInfo["new"](1.2), {["Color"] = Color3["fromRGB"](255, 0, 0)})
-		local L_NEW_TEXT_TWEEN = L_1_[6]:Create(L_NEW_TEXT, TweenInfo["new"](1.2), {["TextColor3"] = Color3["fromRGB"](255, 0, 0)})
-
+		L_27_[4] = L_1_[6]:Create(L_1_[12], TweenInfo["new"](1.2, Enum["EasingStyle"]["Quad"], Enum["EasingDirection"]["Out"]), {
+			["Color"] = Color3["fromRGB"](255, 255, 180)
+		})
+		L_27_[5] = L_1_[6]:Create(L_1_[12], TweenInfo["new"](1.2, Enum["EasingStyle"]["Quad"], Enum["EasingDirection"]["Out"]), {
+			["Color"] = Color3["fromRGB"](255, 200, 60)
+		})
+		L_27_[2] = L_1_[6]:Create(L_1_[15], TweenInfo["new"](1.2), {
+			["TextColor3"] = Color3["fromRGB"](255, 255, 180)
+		})
+		L_27_[3] = L_1_[6]:Create(L_1_[15], TweenInfo["new"](1.2), {
+			["TextColor3"] = Color3["fromRGB"](255, 200, 60)
+		})
+		L_27_[1] = L_1_[6]:Create(L_1_[26], TweenInfo["new"](1.2), {
+			["TextColor3"] = Color3["fromRGB"](255, 255, 180)
+		})
+		L_27_[7] = L_1_[6]:Create(L_1_[26], TweenInfo["new"](1.2), {
+			["TextColor3"] = Color3["fromRGB"](255, 200, 60)
+		})
 		L_27_[4]:Play()
 		L_27_[2]:Play()
 		L_27_[1]:Play()
-		L_NEW_TWEEN:Play()
-		L_NEW_TEXT_TWEEN:Play()
 		L_27_[4]["Completed"]:Wait()
 		L_27_[5]:Play()
 		L_27_[3]:Play()
@@ -2065,11 +2053,11 @@ function TPZ(L_30_arg0)
 	L_31_[2] = L_30_arg0
 	L_31_[1] = (L_31_[2]["Position"] - game["Players"]["LocalPlayer"]["Character"]["HumanoidRootPart"]["Position"])["Magnitude"]
 	if L_31_[1] < 100 then
-		L_31_[4] = 35
+		L_31_[4] = 50
 	elseif L_31_[1] < 400 then
-		L_31_[4] = 100
+		L_31_[4] = 400
 	elseif L_31_[1] < 1000 then
-		L_31_[4] = 150
+		L_31_[4] = 300
 	elseif L_31_[1] < 1500 then
 		L_31_[4] = 260
 	elseif L_31_[1] >= 1500 then
@@ -7540,9 +7528,9 @@ task["spawn"](function()
 				local L_646_ = {}
 				L_646_[1] = Instance["new"]("Highlight")
 				L_646_[1]["Name"] = "Highlight"
-				L_646_[1]["FillColor"] = Color3["fromRGB"](255, 0, 0)
-				L_646_[1]["OutlineColor"] = Color3["fromRGB"](255, 0, 0)
-				L_646_[1]["FillTransparency"] = 0.5
+				L_646_[1]["FillColor"] = Color3["fromRGB"](0, 255, 0)
+				L_646_[1]["OutlineColor"] = Color3["fromRGB"](0, 255, 0)
+				L_646_[1]["FillTransparency"] = 1
 				L_646_[1]["OutlineTransparency"] = 0
 				L_646_[1]["Adornee"] = L_1_[35]["Character"]
 				L_646_[1]["Parent"] = L_1_[35]["Character"]
