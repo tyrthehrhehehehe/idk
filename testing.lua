@@ -1,4 +1,4 @@
-local ScriptURL = "YOUR_RAW_SCRIPT_URL_HERE"
+local ScriptURL = "https://raw.githubusercontent.com/tyrthehrhehehehe/idk/refs/heads/main/testing.lua"
 
 local queueteleport = queue_on_teleport 
     or (syn and syn.queue_on_teleport) 
